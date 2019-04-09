@@ -1,8 +1,8 @@
-//fonction pour afficher le texte
-function showtext() {
- var text = document.getElementById('text').style.display="none";
+//fonction pour afficher le texte et le Masquer
+function show() {
+document.getElementById('text').style.display ='block';
 }
-//fonction pour masquer le texte
-function hidetext() {
- var text = document.getElementById('text').style.display="none";
+
+function hide() {
+document.getElementById('text').style.display ='none';
 }
